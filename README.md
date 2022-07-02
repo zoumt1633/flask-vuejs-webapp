@@ -1,6 +1,6 @@
 # Flask-VueJs-Template 🌶️✌
 
-> A Flask + Vue.js sample application adapted from [this repository](https://github.com/gtalarico/flask-vuejs-template).
+> A Flask + Vue.js sample application adapted from [this repository](https://github.com/Azure-Samples/flask-vuejs-webapp).
 
 ![Vue Logo](/docs/vue-logo.png "Vue Logo") ![Flask Logo](/docs/flask-logo.png "Flask Logo")
 
@@ -59,7 +59,6 @@ Before getting started, you should have the following installed and running:
 - [X] NPM - [instructions](https://yarnpkg.com/en/docs/install#mac-stable)
 - [X] Vue Cli 3 - [instructions](https://cli.vuejs.org/guide/installation.html)
 - [X] Python 3
-- [X] Pipenv (optional)
 
 ### Get started
 
@@ -79,8 +78,10 @@ Before getting started, you should have the following installed and running:
 
 * Install JS dependencies
 
+    - 修改node-sass，参考(https://www.npmjs.com/package/node-sass)
+
     ```bash
-    npm install
+    yarn install
     ```
 
 ### Development Servers
